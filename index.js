@@ -23,7 +23,6 @@ const readme = `\
 ⏰ Updated on ${new Date().toUTCString()}
 
 ---
-<a href=#><img src="contributions.svg"></a>
 <div align="center">
 <img src=https://github-readme-stats.vercel.app/api?username=lingyunmo&show_icons=true&theme=radical>
 </div>
