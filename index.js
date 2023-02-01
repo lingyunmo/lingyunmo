@@ -58,3 +58,5 @@ const readme = `\
 
 \
 `
+
+console.log(readme)
