@@ -7,7 +7,6 @@ const progressBarOfThisYear = generateProgressBar()
 function generateProgressBar() {
     const progressBarCapacity = 30
     const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity)
-    // 这里的进度条可以保持原样，或者你可以改成更像是MC经验条的绿色（GitHub只支持有限字符，所以保持方块最稳妥）
     const progressBar =
       '█'.repeat(passedProgressBarIndex) +
       '░'.repeat(progressBarCapacity - passedProgressBarIndex)
@@ -15,38 +14,38 @@ function generateProgressBar() {
 }
 
 const readme = `\
-### ⛏️ Hi there, I'm Lingyunmo!
+### Hi there, I'm Lingyunmo 👋
 
 <div align="center">
   <img src="https://img.shields.io/badge/Monash_University-Master_of_AI-006DAE?style=for-the-badge&logo=monashuniversity&logoColor=white" alt="Monash University">
-  <img src="https://img.shields.io/badge/Minecraft-Java_Edition-2d2d2d?style=for-the-badge&logo=minecraft&logoColor=25D366" alt="Minecraft">
+  <img src="https://img.shields.io/badge/Role-Developer_%26_Researcher-2d2d2d?style=for-the-badge&logo=github&logoColor=white" alt="Developer">
   <br/>
-  <h3> 🔮 Bridging Neural Networks & Redstone Circuits</h3>
+  <h3>💻 Coding the Future, Crafting the Virtual.</h3>
 </div>
 
 ---
 
-> *"I train models by day, and craft worlds by night."*
+> *"From training Neural Networks to optimizing Server Ticks — I enjoy building robust systems."*
 
-👋 Welcome to my base! I am a **Master of AI student at Monash University** with a heart made of voxels.
-My coding journey wanders between **training LLMs** and **optimizing Minecraft server ticks**. I don't just write code; I craft automated systems—whether it's a CI/CD pipeline or a complex command block sequence.
+I am a **Master of AI student at Monash University** and a passionate **Open Source Developer**. 
+My expertise lies in the intersection of **Artificial Intelligence** and **Software Engineering**. I bring the same level of discipline to my research papers as I do to my **Minecraft server architecture** and plugin development.
 
-- 🔭 **Current Quest**: Exploring the depths of **Large Language Models (LLMs)** & NLP.
-- ⚙️ **Redstone Engineering**: Automating everything with **GitHub Actions** (My CI/CD pipelines are as reliable as a comparators clock).
-- 🍎 **Crafting Table**: Learning MLOps & Distributed Training strategies.
+- 🔭 **Research**: Focusing on **LLMs**, NLP, and Data Mining strategies.
+- 🛠️ **Engineering**: Experienced in **Backend Development**, **CI/CD** automation, and high-performance **Java** applications (including Minecraft Modding/Plugin dev).
+- 🌱 **Goal**: Bridging the gap between academic AI models and practical, scalable applications.
 
 ---
 
-### 🟢 Player Status (Level ${thisYear})
-**XP Bar**: ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
+### 📊 Year Progress
+${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 <br/>
-*Server Last Updated: ${new Date().toUTCString()}*
+*Auto-updated via GitHub Actions | Last update: ${new Date().toUTCString()}*
 
 ---
 
-### 🎒 Inventory & Skills
+### 🛠️ Tech Stack
 
-#### 🔮 **Enchanting Table (AI & Research)**
+#### 🧠 **Artificial Intelligence & Data**
 <div style="display: flex; flex-wrap: wrap; gap: 4px;">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
@@ -56,19 +55,19 @@ My coding journey wanders between **training LLMs** and **optimizing Minecraft s
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </div>
 
-#### ⚙️ **Redstone Mechanics (DevOps & Engineering)**
+#### 🏗️ **Backend, DevOps & Minecraft Tech**
 <div style="display: flex; flex-wrap: wrap; gap: 4px;">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
 </div>
 
 ---
 
-### 🗺️ World Map (Stats)
+### 📈 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats-chi-smoky.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph" />
