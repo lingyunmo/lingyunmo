@@ -10,26 +10,25 @@
 
 ---
 
-> *"The best way to predict the future is to invent it."*
+> *"Code implies the desire to build things. AI implies the desire to make them smart."*
 
-I am a **Master of AI student at Monash University**, evolving from a traditional **Computer Science background**. 
+I am a **Master of AI student at Monash University**, evolving from a solid **Computer Science background**. 
 Unlike typical researchers, I bring **industrial-grade engineering discipline (CI/CD, DevOps)** into AI research.
 
-- 🔭 **I’m currently working on**: Large Language Models (LLMs) & NLP Research.
-- 🌱 **I’m currently learning**: Advanced MLOps & Distributed Training.
-- ⚙️ **I love**: Automating everything with **GitHub Actions** (check my Minecraft CI/CD workflows!).
-- 💬 **Ask me about**: Java Architecture, Minecraft Modding, or Transformer Models.
+- 🔭 **Focus**: Large Language Models (LLMs), NLP, and Data Mining.
+- ⚙️ **Engineering**: Expert in automating workflows with **GitHub Actions** (e.g., my automated Minecraft Mod CI/CD pipeline).
+- 🌱 **Learning**: Advanced MLOps & Distributed Training strategies.
 
 ---
 
 ### 📊 Vital Statistics
 ⏳ **Year Progress**: { ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ } 1.00 %
 <br/>
-⏰ **Last Auto-Update**: Sun, 04 Jan 2026 15:26:08 GMT
+⏰ **Last Auto-Update**: Sun, 04 Jan 2026 15:29:32 GMT
 
 ---
 
-### 🛠️ The Arsenal (Tech Stack)
+### 🛠️ The Arsenal
 
 #### 🧠 **AI & Research (Current Focus)**
 <div style="display: flex; flex-wrap: wrap; gap: 4px;">
@@ -57,8 +56,8 @@ Unlike typical researchers, I bring **industrial-grade engineering discipline (C
 ### 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lingyunmo&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=radical&langs_count=6" height="150" alt="top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6" height="150" alt="top languages" />
 </div>
 
 <br/>
