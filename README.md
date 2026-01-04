@@ -1,47 +1,45 @@
-### Hi there, I'm Shen Lingzhi (Lingyunmo) 👋
+### ⛏️ Hi there, I'm Lingyunmo!
 
 <div align="center">
-  <a href="https://www.monash.edu/">
-    <img src="https://img.shields.io/badge/Monash_University-Master_of_AI-006DAE?style=for-the-badge&logo=monashuniversity&logoColor=white" alt="Monash University">
-  </a>
+  <img src="https://img.shields.io/badge/Monash_University-Master_of_AI-006DAE?style=for-the-badge&logo=monashuniversity&logoColor=white" alt="Monash University">
+  <img src="https://img.shields.io/badge/Minecraft-Java_Edition-2d2d2d?style=for-the-badge&logo=minecraft&logoColor=25D366" alt="Minecraft">
   <br/>
-  <h3>🚀 Bridging Software Engineering & Artificial Intelligence</h3>
+  <h3> 🔮 Bridging Neural Networks & Redstone Circuits</h3>
 </div>
 
 ---
 
-> *"Code implies the desire to build things. AI implies the desire to make them smart."*
+> *"I train models by day, and craft worlds by night."*
 
-I am a **Master of AI student at Monash University**, evolving from a solid **Computer Science background**. 
-Unlike typical researchers, I bring **industrial-grade engineering discipline (CI/CD, DevOps)** into AI research.
+👋 Welcome to my base! I am a **Master of AI student at Monash University** with a heart made of voxels.
+My coding journey wanders between **training LLMs** and **optimizing Minecraft server ticks**. I don't just write code; I craft automated systems—whether it's a CI/CD pipeline or a complex command block sequence.
 
-- 🔭 **Focus**: Large Language Models (LLMs), NLP, and Data Mining.
-- ⚙️ **Engineering**: Expert in automating workflows with **GitHub Actions** (e.g., my automated Minecraft Mod CI/CD pipeline).
-- 🌱 **Learning**: Advanced MLOps & Distributed Training strategies.
+- 🔭 **Current Quest**: Exploring the depths of **Large Language Models (LLMs)** & NLP.
+- ⚙️ **Redstone Engineering**: Automating everything with **GitHub Actions** (My CI/CD pipelines are as reliable as a comparators clock).
+- 🍎 **Crafting Table**: Learning MLOps & Distributed Training strategies.
 
 ---
 
-### 📊 Vital Statistics
-⏳ **Year Progress**: { ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ } 1.00 %
+### 🟢 Player Status (Level 2026)
+**XP Bar**: [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 1.00 %
 <br/>
-⏰ **Last Auto-Update**: Sun, 04 Jan 2026 15:43:55 GMT
+*Server Last Updated: Sun, 04 Jan 2026 15:57:44 GMT*
 
 ---
 
-### 🛠️ The Arsenal
+### 🎒 Inventory & Skills
 
-#### 🧠 **AI & Research (Current Focus)**
+#### 🔮 **Enchanting Table (AI & Research)**
 <div style="display: flex; flex-wrap: wrap; gap: 4px;">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </div>
 
-#### 🏗️ **Engineering & Infrastructure (Core Strength)**
+#### ⚙️ **Redstone Mechanics (DevOps & Engineering)**
 <div style="display: flex; flex-wrap: wrap; gap: 4px;">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
@@ -53,12 +51,12 @@ Unlike typical researchers, I bring **industrial-grade engineering discipline (C
 
 ---
 
-### 📈 Contribution Graph
+### 🗺️ World Map (Stats)
 
 <div align="center">
-  <img src="https://github-readme-stats-chi-smoky.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats-chi-smoky.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph" />
   
-  <img src="https://github-readme-stats-chi-smoky.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6" height="150" alt="top languages" />
+  <img src="https://github-readme-stats-chi-smoky.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6&hide_border=true" height="150" alt="top languages" />
 </div>
 
 <br/>
