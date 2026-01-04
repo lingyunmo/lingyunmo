@@ -1,26 +1,41 @@
-name: Progress Bar CI
+name: Update Profile README
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    # 修改为每天运行一次即可，频繁运行没必要
+    - cron: '0 0 * * *'
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+    
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+    
     - name: Use Node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
       with:
-        node-version: '14.x'
+        node-version: '20'
+        
     - name: Update README.md
       run: node index.js > README.md
+      
     - name: Commit change & Push
       run: |
-          git config user.name '${{ github.repository_owner }}'
-          git config user.email '96475062+lingyunmo@users.noreply.github.com'
-          git commit -am "bot: update README.md automatically"
-          git push
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          # 只有当 README 发生变化时才 commit，避免空提交报错
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "bot: update README.md automatically"
+            git push
+          fi
