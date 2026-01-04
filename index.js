@@ -72,8 +72,9 @@ Unlike typical researchers, I bring **industrial-grade engineering discipline (C
 ### 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6" height="150" alt="top languages" />
+  <img src="https://github-readme-stats-chi-smoky.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight" height="150" alt="stats graph" />
+  
+  <img src="https://github-readme-stats-chi-smoky.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6" height="150" alt="top languages" />
 </div>
 
 <br/>
