@@ -1,70 +1,65 @@
-### Hi there 👋
+### Hi there, I'm Shen Lingzhi (Lingyunmo) 👋
 
-⏳ Year progress { ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 0.99 %
+<div align="center">
+  <a href="https://www.monash.edu/">
+    <img src="https://img.shields.io/badge/Monash_University-Master_of_AI-006DAE?style=for-the-badge&logo=monashuniversity&logoColor=white" alt="Monash University">
+  </a>
+</div>
+
+<br/>
+
+I am currently pursuing a **Master of Artificial Intelligence** at **Monash University**. 
+My transition from Computer Science (Weifang University) to AI has shifted my focus towards **Large Language Models (LLMs)**, **Machine Learning**, and **Data Science**.
 
 ---
 
-⏰ Updated on Sun, 04 Jan 2026 15:09:02 GMT
+⏳ **Year Progress** { ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ } 1.00 %
+
+⏰ **Updated on** Sun, 04 Jan 2026 15:10:48 GMT
 
 ---
-<div align="center">
-<img src=https://github-readme-stats.vercel.app/api?username=lingyunmo&show_icons=true&theme=radical>
+
+### 🛠️ Tech Stack & Research Interests
+
+#### 🧠 AI & Data Science (My Focus)
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 </div>
-<div align="center">
-<img src=https://github-readme-stats.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=radical>
+
+#### 💻 Engineering & Tools (Background)
+<div style="display: flex; flex-wrap: wrap; gap: 5px;">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </div>
 
-##
-:pushpin:Now working on
+---
 
-![Spring](https://img.shields.io/badge/Spring-Framework-brightgreen?style=plastic&logo=spring)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Web%20Development-brightgreen?style=plastic&logo=spring)
-![Maven](https://img.shields.io/badge/Maven-Build%20Automation-blue?style=plastic&logo=apache-maven)
-![Android](https://img.shields.io/badge/Android-App%20Development-green?style=plastic&logo=android)
-![Gradle](https://img.shields.io/badge/Gradle-Build%20Tool-green?style=plastic&logo=gradle)
-![DataStructure](https://img.shields.io/badge/DataStructure-C%2FC%2B%2B-brightgreen?style=plastic)
-![JavaEE](https://img.shields.io/badge/JavaEE-Java%20Enterprise%20Edition-orange?style=plastic)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=plastic&logo=mysql)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-Operating%20System-blue?style=plastic&logo=ubuntu)
+### 📊 GitHub Stats
 
-:penguin:Now in use
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lingyunmo&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=radical&langs_count=6" height="150" alt="top languages" />
+</div>
 
-![MySQL](https://img.shields.io/badge/mysql-blueviolet?style=plastic&logo=mysql&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-red?style=plastic&logo=github)
-![MacOS](https://img.shields.io/badge/MacOS-blue?style=plastic&logo=apple)
-![Win](https://img.shields.io/badge/Windows-blue?style=plastic&logo=windows)
-![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-Programming-brightgreen?style=plastic&logo=C%2B%2B)
-![Java](https://img.shields.io/badge/Java-Programming-brightgreen?style=plastic&logo=java)
-![C](https://img.shields.io/badge/C-Programming-brightgreen?style=plastic&logo=c)
-![Python](https://img.shields.io/badge/Python-Programming-brightgreen?style=plastic&logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-Web%20Development-yellow?style=plastic&logo=javascript)
-![Git](https://img.shields.io/badge/Git-Version%20Control-green?style=plastic&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=plastic&logo=github)
-![C#](https://img.shields.io/badge/C%23-Programming-brightgreen?style=plastic&logo=c-sharp)
-![Unity](https://img.shields.io/badge/Unity-Game%20Development-orange?style=plastic&logo=unity)
-![Kotlin](https://img.shields.io/badge/Kotlin-Programming-brightgreen?style=plastic&logo=kotlin)
+<br/>
 
-
-
-:cat:Future may use
-
-![React](https://img.shields.io/badge/React-Framework-yellow?style=plastic&logo=react)
-![Django](https://img.shields.io/badge/Django-Framework-brightgreen?style=plastic&logo=django)
-![VS Code](https://img.shields.io/badge/VS%20Code-IDE-blue?style=plastic&logo=visual-studio-code)
-![AWS](https://img.shields.io/badge/AWS-Cloud%20Computing-orange?style=plastic&logo=amazon-aws)
-![Linux](https://img.shields.io/badge/Linux-Operating%20System-blue?style=plastic&logo=linux)
-
-
-:rocket:Devote to
-
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lingyunmo&repo=Declinera-1.16.5-forge )
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lingyunmo&repo=Lanthanum)
-
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lingyunmo/lingyunmo/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lingyunmo/lingyunmo/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lingyunmo/lingyunmo/output/github-contribution-grid-snake.svg">
-</picture>
-
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lingyunmo/lingyunmo/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lingyunmo/lingyunmo/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lingyunmo/lingyunmo/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
