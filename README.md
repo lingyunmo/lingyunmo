@@ -1,3 +1,19 @@
+const thisYear = new Date().getFullYear()
+const startTimeOfThisYear = new Date(`${thisYear}-01-01T00:00:00+00:00`).getTime()
+const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime()
+const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear)
+const progressBarOfThisYear = generateProgressBar()
+
+function generateProgressBar() {
+    const progressBarCapacity = 30
+    const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity)
+    const progressBar =
+      '█'.repeat(passedProgressBarIndex) +
+      '░'.repeat(progressBarCapacity - passedProgressBarIndex)
+    return `{ ${progressBar} }`
+}
+
+const readme = `\
 ### Hi there, I'm Shen Lingzhi (Lingyunmo) 👋
 
 <div align="center">
@@ -22,9 +38,9 @@ Unlike typical researchers, I bring **industrial-grade engineering discipline (C
 ---
 
 ### 📊 Vital Statistics
-⏳ **Year Progress**: { ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ } 1.00 %
+⏳ **Year Progress**: ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 <br/>
-⏰ **Last Auto-Update**: Sun, 04 Jan 2026 15:29:32 GMT
+⏰ **Last Auto-Update**: ${new Date().toUTCString()}
 
 ---
 
@@ -56,8 +72,9 @@ Unlike typical researchers, I bring **industrial-grade engineering discipline (C
 ### 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6" height="150" alt="top languages" />
+  <img src="https://github-readme-stats-chi-smoky.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight" height="150" alt="stats graph" />
+  
+  <img src="https://github-readme-stats-chi-smoky.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6" height="150" alt="top languages" />
 </div>
 
 <br/>
@@ -69,4 +86,6 @@ Unlike typical researchers, I bring **industrial-grade engineering discipline (C
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lingyunmo/lingyunmo/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+`
 
+console.log(readme)
