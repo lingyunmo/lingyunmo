@@ -1,68 +1,171 @@
-const thisYear = new Date().getFullYear()
-const startTimeOfThisYear = new Date(`${thisYear}-01-01T00:00:00+00:00`).getTime()
-const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime()
-const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear)
-const progressBarOfThisYear = generateProgressBar()
-
-function generateProgressBar() {
-    const progressBarCapacity = 30
-    const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity)
-    const progressBar =
-      '█'.repeat(passedProgressBarIndex) +
-      '░'.repeat(progressBarCapacity - passedProgressBarIndex)
-    return `[${progressBar}]`
-}
-
 const readme = `\
-### Hi there, I'm Lingyunmo 👋
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Monash_University-Master_of_AI-006DAE?style=for-the-badge&logo=monashuniversity&logoColor=white" alt="Monash University">
-  <img src="https://img.shields.io/badge/Role-Developer_%26_Researcher-2d2d2d?style=for-the-badge&logo=github&logoColor=white" alt="Developer">
-  <br/>
-  <h3>💻 Coding the Future, Crafting the Virtual.</h3>
+  <img src="assets/banner.png" alt="Lingyunmo" width="100%" />
 </div>
 
----
+### Hi, I'm Lingyunmo 👋
 
-> *"From training Neural Networks to optimizing Server Ticks — I enjoy building robust systems."*
+I'm a Master of AI student at Monash, but my GitHub makes me look like a full-time Minecraft modder. Honestly, it's not that far off.
 
-I am a **Master of AI student at Monash University** and a passionate **Open Source Developer**. 
-My expertise lies in the intersection of **Artificial Intelligence** and **Software Engineering**. I bring the same level of discipline to my research papers as I do to my **Minecraft server architecture** and plugin development.
-
-- 🔭 **Research**: Focusing on **LLMs**, NLP, and Data Mining strategies.
-- 🛠️ **Engineering**: Experienced in **Backend Development**, **CI/CD** automation, and high-performance **Java** applications (including Minecraft Modding/Plugin dev).
-- 🌱 **Goal**: Bridging the gap between academic AI models and practical, scalable applications.
+Most days I'm either writing Minecraft mods, shipping full-stack web apps, or coaxing Docker containers into staying alive. I self-host my own infrastructure — which means I'm both the developer and the person who gets paged when something breaks at 2 AM.
 
 ---
 
-### 📊 Year Progress
-${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
+### 🧊 Minecraft Mods & Plugins
+
+I build mods for both **Forge** and **Fabric**, plus server plugins. Also into modpacks and server configs — basically anything in Minecraft you can mess with.
+
 <br/>
-*Auto-updated via GitHub Actions | Last update: ${new Date().toUTCString()}*
+
+<p>
+  <a href="https://github.com/lingyunmo/Lanthanum">
+    <img src="https://img.shields.io/badge/🧪_Lanthanum-Tech_Mod-388E3C?style=for-the-badge" alt="Lanthanum" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/1.20.1-2196F3?style=flat-square" />
+  <img src="https://img.shields.io/badge/Forge-1C1C1C?style=flat-square" />
+  <img src="https://img.shields.io/badge/Fabric-DBD0B4?style=flat-square&logoColor=black" />
+  <img src="https://img.shields.io/badge/Architectury-15899E?style=flat-square" />
+  <br/>
+  <sub>Ore processing, custom dimension. Built on Architectury — work in progress. ⚠️</sub>
+</p>
+
+<br/>
+
+<p>
+  <a href="https://github.com/lingyunmo/EdiblePotionsMod">
+    <img src="https://img.shields.io/badge/🍎_EdiblePotionsMod-Potion_Food-E65100?style=for-the-badge" alt="EdiblePotionsMod" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/1.20.1-2196F3?style=flat-square" />
+  <img src="https://img.shields.io/badge/Forge-1C1C1C?style=flat-square" />
+  <img src="https://img.shields.io/badge/Fabric-DBD0B4?style=flat-square&logoColor=black" />
+  <img src="https://img.shields.io/badge/Architectury-15899E?style=flat-square" />
+  <br/>
+  <sub>47 vanilla foods × 3 delivery modes = 4,500+ infused variants. Infusion Table workstation with hopper automation & redstone control.</sub>
+</p>
+
+<br/>
+
+<p>
+  <a href="https://github.com/lingyunmo/declinera-1.16.5-forge">
+    <img src="https://img.shields.io/badge/⚗️_Declinera-Brewing_Mod-7B1FA2?style=for-the-badge" alt="Declinera" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/1.16.5-2196F3?style=flat-square" />
+  <img src="https://img.shields.io/badge/1.12.2-607D8B?style=flat-square" />
+  <img src="https://img.shields.io/badge/Forge-1C1C1C?style=flat-square" />
+  <img src="https://img.shields.io/badge/MCreator-FF6B35?style=flat-square" />
+  <br/>
+  <sub>Custom brewing mechanics. My first mod — where it all started.</sub>
+</p>
+
+<br/>
+
+<p>
+  <a href="https://github.com/lingyunmo/EpicMobsReborn">
+    <img src="https://img.shields.io/badge/👾_EpicMobsReborn-Server_Plugin-C62828?style=for-the-badge" alt="EpicMobsReborn" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/1.16.5-2196F3?style=flat-square" />
+  <img src="https://img.shields.io/badge/Paper-444444?style=flat-square" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <br/>
+  <sub>A Paper server plugin bringing custom mobs to 1.16.5. Rewrite of the original EpicMobs.</sub>
+</p>
 
 ---
 
-### 🛠️ Tech Stack
+### 🤖 AI & Other Projects
 
-#### 🧠 **Artificial Intelligence & Data**
+<p>
+  <a href="https://github.com/lingyunmo/SleepChat-Agent">
+    <img src="https://img.shields.io/badge/💤_SleepChat--Agent-WeChat_LLM_Bot-1565C0?style=for-the-badge" alt="SleepChat-Agent" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-FF6F00?style=flat-square" />
+  <img src="https://img.shields.io/badge/RPA-607D8B?style=flat-square" />
+  <br/>
+  <sub>Lets a local LLM reply to WeChat messages while I'm asleep. Pulls from my chat history so it sounds like me, not a bot. Urgent messages wake me up.</sub>
+</p>
+
+<br/>
+
+<p>
+  <a href="https://github.com/lingyunmo/AI-After-Sales-Processing-System">
+    <img src="https://img.shields.io/badge/🎓_AI_After--Sales-Graduation_Project-424242?style=for-the-badge" alt="AI After-Sales" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <br/>
+  <sub>AI-powered customer service processing system. Graduation design project.</sub>
+</p>
+
+<br/>
+
+<p>
+  <a href="https://github.com/lingyunmo/fakebaidu">
+    <img src="https://img.shields.io/badge/🔍_fakebaidu-Full--Stack_Web-4FC08D?style=for-the-badge" alt="fakebaidu" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+  <a href="https://github.com/lingyunmo/fakebaiduserver">
+    <img src="https://img.shields.io/badge/API_Server-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  </a>
+  <br/>
+  <sub>A dynamic web platform inspired by Baidu. Vue frontend + TypeScript backend API.</sub>
+</p>
+
+---
+
+### 🎓 What I Study
+
+AI & NLP at Monash. Currently deep in **Python** and **PyTorch** — language models, data mining, and the universal struggle of debugging a loss curve that won't go down.
+
+---
+
+### 🛠️ What I Actually Use
+
+#### Languages
 <div style="display: flex; flex-wrap: wrap; gap: 4px;">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
 </div>
 
-#### 🏗️ **Backend, DevOps & Minecraft Tech**
+#### Frameworks & Libraries
 <div style="display: flex; flex-wrap: wrap; gap: 4px;">
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+</div>
+
+#### Infrastructure
+<div style="display: flex; flex-wrap: wrap; gap: 4px;">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</div>
+
+#### Build & CI
+<div style="display: flex; flex-wrap: wrap; gap: 4px;">
   <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+</div>
+
+#### Minecraft Ecosystem
+<div style="display: flex; flex-wrap: wrap; gap: 4px;">
+  <img src="https://img.shields.io/badge/Forge-1C1C1C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Fabric-DBD0B4?style=for-the-badge&logoColor=black" />
+  <img src="https://img.shields.io/badge/Architectury-15899E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MCreator-FF6B35?style=for-the-badge" />
 </div>
 
 ---
@@ -71,7 +174,6 @@ ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 
 <div align="center">
   <img src="https://github-readme-stats-chi-smoky.vercel.app/api?username=lingyunmo&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph" />
-  
   <img src="https://github-readme-stats-chi-smoky.vercel.app/api/top-langs/?username=lingyunmo&layout=compact&theme=tokyonight&langs_count=6&hide_border=true" height="150" alt="top languages" />
 </div>
 
